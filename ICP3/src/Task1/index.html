@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="rps.js"></script>
+    <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+    <div class="container">
+        <div class="images">
+            <button class="fas fa-hand-rock" id="rock" onclick="play('rock')"></button>
+            <button class="fas fa-hand-paper" id="paper" onclick="play('paper')"></button>
+            <button class="fas fa-hand-scissors" id="scissors" onclick="play('scissors')"></button>
+        </div>
+        <div class="des">
+            <h2 id="result"></h2>
+        </div>
+        <!-- player and computer choices will be displayed here -->
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Player Choice</h4>
+                <h5 id="playerChoice"></h5>
+            </div>
+            <div class="col-md-6">
+                <h4>Computer Choice</h4>
+                <h5 id="computerChoice"></h5>
+            </div>            
+        </div>
+        <!-- player and compuper score will be displayed here -->
+        <div class="row">
+            <div class="player col-md-6">
+                <h3>Player</h3>
+                <h6 id="playerScore">0</h6>
+            </div>
+            <div class="computer col-md-6">
+                <h3>Computer</h3>
+                <h6 id="computerScore">0</h6>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

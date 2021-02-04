@@ -1,0 +1,51 @@
+html,
+body {
+    height: 100%;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+}
+.images button{
+    margin: 0 20px;
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background : rgb(41, 40, 40);
+    font-size: 33px;
+    color: orange;
+}
+.rounded {
+    border-radius: 50% !important;
+    width: 120px;
+}
+
+body {
+    background-color:#FFAABE;
+    height: 32vh;
+}
+
+.play-button {
+    margin-top: 15%;
+}
+
+.play-button img{
+    border-radius: 50%;
+}
+ h2{
+     margin: auto;
+     align-self: center;
+ }
+ .des{
+     text-align: center;
+ }
+ .row{
+     text-align: center;
+ }
