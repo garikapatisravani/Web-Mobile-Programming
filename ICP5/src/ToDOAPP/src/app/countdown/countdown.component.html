@@ -1,0 +1,28 @@
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <h3>Countdown</h3>
+                <dp-date-picker #value theme="dp-material" [config]="datePickerConfig" required="true" placeholder="Select Date"
+                  [(ngModel)]="selectedDate">
+                </dp-date-picker>
+                <div class="form-group">
+                  <button class="btn btn-primary" (click)="getDate(value)">
+                    Click Me
+                  </button>
+                </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div *ngIf="dateinFormat">
+                    <countdown units="Year | Month | Days | Hours | Minutes | Seconds" end="{{ dateinFormat }}"></countdown>
+                  </div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+ 
