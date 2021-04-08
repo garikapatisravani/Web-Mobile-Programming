@@ -1,0 +1,4 @@
+#Wed Apr 07 20:45:42 CDT 2021
+base.0=C\:\\Users\\garik\\Documents\\GitHub\\Web-Mobile-Programming\\Mobile ICP3\\Source\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
